@@ -1,5 +1,7 @@
 package observer;
 
+import observer.subject.WeatherData;
+
 public class StatisticsDisplay implements Observer, DisplayElement {
     private WeatherData weatherData;
 
